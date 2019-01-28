@@ -1,0 +1,23 @@
+/* 分页面导航样式 */
+.breadcrumb{
+    background: white;
+    position: relative;
+    border-radius: 0px;
+    border-bottom: 1px silver solid;
+}
+.breadcrumb span{
+    position: absolute;
+    top:0px;
+    right: 50px;
+}
+
+/* 提示样式 */
+.msg{
+    height: 30px;
+    line-height: 30px;
+}
+
+.footerMargin{
+    height: 30px;
+    margin-bottom: 60px;
+}

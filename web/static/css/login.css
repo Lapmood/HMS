@@ -1,0 +1,55 @@
+@charset "utf-8";
+body{
+    background: url("../images/bg.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.login{
+    width: 100%;
+    margin: 120px auto 0px;
+    padding: 40px;
+    background: white;
+    max-width: 420px;
+}
+#darkbannerwrap{
+    width: 18px;
+    height: 10px;
+    position: relative;
+    background: url(../images/aiwrap.png);
+    margin: 0px 0px 20px -58px;
+}
+
+.form-control{
+    margin-top: 15px;
+    height: 50px;
+    line-height: 50px;
+}
+.sub{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+.message{
+    position: relative;
+    margin: 10px 0px 0px -58px;
+    padding: 18px 10px 18px 60px;
+}
+.sub,.message{
+    background: rgb(24, 159, 146);
+    color: white;
+}
+
+/*屏幕大于420px时使用样式*/
+@media (min-width: 420px) {
+    .login{
+        width: 420px;
+    }
+    *{
+        font-size: 16px;
+    }
+}
